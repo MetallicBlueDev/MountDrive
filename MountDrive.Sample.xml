@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AppSettings>
+    <autoStartPerformanceMeasurement>true</autoStartPerformanceMeasurement>
+    <logMaxBackup>1</logMaxBackup>
+    <logMaxLength>1572864</logMaxLength>
+    <performanceMeasurementWaitUserFactor>1.0</performanceMeasurementWaitUserFactor>
+    <writeLogFile>true</writeLogFile>
+    <drives>
+        <drive letter="B">
+            <password>MyPasswordABC</password>
+            <path>\\my-share-srv\backup</path>
+            <userName>dom@in\us3r</userName>
+        </drive>
+        <drive letter="C">
+            <password>MyOtherPasswordDEF</password>
+            <path>\\hello-share-srv\backup</path>
+            <userName>dom@in\us3r</userName>
+        </drive>
+    </drives>
+    <reachableRetry>30</reachableRetry>
+    <reachableTimeout>6000</reachableTimeout>
+    <resetDrivesCount>5</resetDrivesCount>
+</AppSettings>
